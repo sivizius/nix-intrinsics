@@ -1,3 +1,4 @@
+{ context, ... }:
 {
   #!  Abort Nix expression evaluation and print the error message.
   abort#: string -> !

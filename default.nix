@@ -1,4 +1,4 @@
 { context, ... }:
 {
-  lib                                   =   import ./. { context = context ++ [ "lib" ]; };
+  lib                                   =   import ./lib { context = context ++ [ "lib" ]; };
 }
