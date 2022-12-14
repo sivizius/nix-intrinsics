@@ -3,7 +3,5 @@
   inputs                                =   {}; # No Inputs!
   outputs
   =   { ... }:
-      {
-        lib                             =   import ./.;
-      };
+        import ./. { context = [ "intrinsics" ]; };
 }
